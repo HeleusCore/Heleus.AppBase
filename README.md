@@ -1,8 +1,8 @@
 # Heleus App Base
 
-This repository contains all the shared code and data for our client applications. Our apps are based on [Xamarin.Forms](https://github.com/xamarin/Xamarin.Forms) and run on iOS, Android, Windows, macOS and Linux. Please, do not clone this repository directly, clone HeleusCore https://github.com/HeleusCore/HeleusCore instead. For the development, we use Visual Studio on Windows, Visual Studio for Mac on macOS and MonoDevelop on Linux.
+This repository contains all the shared code and data for our client applications. Our apps are based on [Xamarin.Forms](https://github.com/xamarin/Xamarin.Forms) and run on iOS, Android, Windows, macOS and Linux. Please, do not clone this repository directly, clone https://github.com/HeleusCore/HeleusCore instead. For the development, we use Visual Studio on Windows, Visual Studio for Mac on macOS and MonoDevelop on Linux.
 
-## Prerequists
+## Prerequisites
 
 ### Font Awesome
 
