@@ -1,0 +1,50 @@
+﻿// Solution
+AppTemplate.Linux.sln => $name.Linux.sln; AppTemplate.App => $name.App; ..\Base => ..\Heleus.AppBase\Base; ..\..\Heleus => ..\Heleus; AppTemplate. => $name.
+AppTemplate.macOS.sln => $name.macOS.sln; AppTemplate.App => $name.App; ..\Base => ..\Heleus.AppBase\Base; ..\..\Heleus => ..\Heleus; AppTemplate. => $name.
+AppTemplate.Windows.sln => $name.Windows.sln; AppTemplate.App => $name.App; ..\Base => ..\Heleus.AppBase\Base; ..\..\Heleus => ..\Heleus; AppTemplate. => $name.
+
+Platforms/buildinfo.sh; AppShortName => $name; AppName => $fullname; AppExe => $exec ;AppScheme => $scheme ;AppDescription => $description;
+
+
+// App
+App/AppTemplate.App.shproj => App/$name.App.shproj; AppTemplate. => $name.
+App/AppTemplate.App.projitems => App/$name.App.projitems; .AppTemplate => .$name; .\Translation\en.common.txt => ..\..\Heleus.AppBase\AppTemplate\App\Translation\en.common.txt; AppTemplateApp => $nameApp
+App/Translation/en.txt; App_Name => $name; App_FullName => $fullname; App_Description => $description; App_Link => $link; App_Developer => $developer; App_Scheme => $scheme
+App/UIApp/Theme.cs; 80, 155, 213 => $primarycolor; 155, 59, 142 => $secondarycolor; #509BD5 => $primarycolorhex; #9B3B8E => $secondarycolorhex
+App/UIApp/UIApp.cs; AppTemplateApp => $nameApp
+App/AppTemplateApp.cs => App/$nameApp.cs; AppTemplateApp => $nameApp; AppTemplateNode => $nameNode
+App/AppTemplateNode.cs => App/$nameNode.cs; AppTemplateNode => $nameNode
+
+
+// Android
+Platforms/Android/AppTemplate.Android.csproj => Platforms/Android/$name.Android.csproj; AppTemplate.App.projitems =>  $name.App.projitems; ..\Base => ..\Heleus.AppBase\Base; AppTemplate.Name => $fullname; ..\Fonts => ..\Heleus.AppBase\Fonts; ..\Heleus.Base => Heleus.Base; ..\Heleus.Services => Heleus.Services;
+Platforms/Android/MainActivity.cs; AppTemplate.Name => $fullname; AppTemplate.Scheme => $scheme; AppTemplate.Domain => $domain
+Platforms/Android/Properties/AndroidManifest.xml; com.apptemplate.apppackage => $package; AppTemplate => $name
+Platforms/Android/Resources/values/Styles.xml; #509BD5 => $primarycolorhex; #9B3B8E => $secondarycolorhex
+
+// GTK
+Platforms/GTK/AppTemplate.GTK.csproj => Platforms/GTK/$name.GTK.csproj; AppTemplate.App.projitems =>  $name.App.projitems; ..\Base => ..\Heleus.AppBase\Base; ..\Fonts => ..\Heleus.AppBase\Fonts; AppTemplate.Name => $fullname; ..\Misc => ..\Heleus.AppBase\Misc; ..\Heleus.Base => Heleus.Base; ..\Heleus.Services => Heleus.Services;
+Platforms/GTK/Properties/AssemblyInfo.cs; App_Name => $name; App_FullName => $fullname; App_Description => $description; App_Link => $link; App_Developer => $developer
+Platforms/GTK/buildinfo.sh; AppShortName => $name; AppName => $fullname; AppExe => $exec ;AppScheme => $scheme ;AppDescription => $description;
+
+// iOS
+Platforms/iOS/AppTemplate.iOS.csproj => Platforms/iOS/$name.iOS.csproj; AppTemplate.App.projitems =>  $name.App.projitems; ..\Base => ..\Heleus.AppBase\Base; ..\Fonts => ..\Heleus.AppBase\Fonts; AppTemplate.Name => $fullname; ..\Heleus.Base => Heleus.Base; ..\Heleus.Services => Heleus.Services;
+Platforms/iOS/Entitlements.plist; domain.com => $domain
+Platforms/iOS/Info.plist; AppTemplate.Name => $fullname; com.apptemplate.package => $package; AppTemplate.Scheme => $scheme
+Platforms/iOS/LaunchScreen.storyboard; 0.52941176470588236 => $primarycolordoubler; 0.14117647058823529 => $primarycolordoubleg; 0.4823529411764706 => $primarycolordoubleb;
+
+// macOS
+Platforms/macOS/AppTemplate.macOS.csproj => Platforms/macOS/$name.macOS.csproj; AppTemplate.App.projitems =>  $name.App.projitems; ..\Base => ..\Heleus.AppBase\Base; ..\Fonts => ..\Heleus.AppBase\Fonts; AppTemplate.Name => $fullname; ..\Heleus.Base => Heleus.Base; ..\Heleus.Services => Heleus.Services;
+Platforms/macOS/Info.plist; AppTemplate.Name => $fullname; com.apptemplate.package => $package; AppTemplate.Scheme => $scheme; AppTemplate.Developer => $developer;
+
+// WPF
+Platforms/WPF/AppTemplate.WPF.csproj => Platforms/WPF/$name.WPF.csproj; AppTemplate.App.projitems =>  $name.App.projitems; ..\Base => ..\Heleus.AppBase\Base; ..\Fonts => ..\Heleus.AppBase\Fonts; AppTemplate.Name => $fullname; ..\Heleus.Base => Heleus.Base; ..\Heleus.Services => Heleus.Services;
+Platforms/WPF/Properties/AssemblyInfo.cs; App_Name => $name; App_FullName => $fullname; App_Description => $description; App_Link => $link; App_Developer => $developer
+Platforms/WPF/MainWindow.xaml; AppTemplate.Name => $fullname
+Platforms/WPF/BuildInfo.bat; AppShortName => $name; AppName => $fullname; AppExe => $exec ;AppScheme => $scheme ;AppDescription => $description;
+
+// UWP
+Platforms/UWP/AppTemplate.UWP.csproj => Platforms/UWP/$name.UWP.csproj; AppTemplate.App.projitems =>  $name.App.projitems; ..\Base => ..\Heleus.AppBase\Base; ..\Fonts => ..\Heleus.AppBase\Fonts; AppTemplate.Name => $fullname; ..\Heleus.Base => Heleus.Base; ..\Heleus.Services => Heleus.Services;
+Platforms/UWP/Properties/AssemblyInfo.cs; App_Name => $name; App_FullName => $fullname; App_Description => $description; App_Link => $link; App_Developer => $developer;
+Platforms/UWP/Package.appxmanifest; AppTemplate.Name => $fullname; AppTemplate.Developer => $developer; AppTemplate.Description => $description; apptemplate.scheme => $scheme; #9B3B8E => $primarycolorhex; AppTemplate.Exec => $exec
+Platforms/UWP/App.xaml; #589BD5 => $primarycolorhex;

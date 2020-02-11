@@ -1,0 +1,25 @@
+﻿// App
+App/Translation/en.txt; app
+
+Platforms/buildinfo.sh; build
+
+// Android
+Platforms/Android/Properties/AndroidManifest.xml; androidmanifest
+
+// GTK
+Platforms/GTK/Properties/AssemblyInfo.cs; assembly
+Platforms/GTK/buildinfo.sh; build
+
+// macOS
+Platforms/macOS/Info.plist; plist
+
+// iOS
+Platforms/iOS/Info.plist; plist
+
+// WPF
+Platforms/WPF/Properties/AssemblyInfo.cs; assembly
+Platforms/WPF/BuildInfo.bat; build
+
+// UWP
+Platforms/UWP/Properties/AssemblyInfo.cs; assembly
+Platforms/UWP/Package.appxmanifest; appxmanifest

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{3059E57C-0C10-4B14-97AF-14D723777121}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Heleus.Apps.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)UIApp\UIApp.iOS.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UIApp\AppDelegate.iOS.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\TTGSnackbar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\TouchEventHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\PointerFrameRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\Xamarin\AlignmentExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\Screen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\EntryRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\PickerRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\ExportImageSourceHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\ViewCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\TabbedPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\FontStyleConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\ScrollView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\Navigation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UIApp\Main.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\ListView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)UIApp\" />
+    <Folder Include="$(MSBuildThisFileDirectory)System\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Renderers\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Renderers\Xamarin\" />
+  </ItemGroup>
+</Project>

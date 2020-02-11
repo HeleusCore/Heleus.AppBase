@@ -1,0 +1,14 @@
+﻿.DS_Store
+.userprefs
+.csproj.user
+.vs
+.common.txt
+ignore.txt
+modify.txt
+images.txt
+versions.txt
+/AppInfo/
+/bin/
+/obj/
+/packages/
+google-services.json

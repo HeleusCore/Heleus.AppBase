@@ -1,0 +1,16 @@
+﻿App.Name: App_Name
+App.FullName: App_FullName
+App.Developer: App_Developer
+App.Description: App_Description
+App.Link: App_Link
+App.Version: 1.0.0
+App.Scheme: App_Scheme
+
+## PAGES
+#
+
+## ENUMS
+
+ServiceUserCodes: Service error: {0} (Code {1}).
+ServiceUserCodes.None: Ok
+ServiceUserCodes.InvalidTransaction: Invalid transaction

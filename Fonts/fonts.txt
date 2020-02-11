@@ -1,0 +1,12 @@
+The Heleus apps use Font Awesome Pro. It is not allowed to distribute these fonts files, therefore we can't put them on in public repository.
+
+If you have a licence, please put the files
+
+fa-brands-400.ttf
+fa-light-300.ttf
+fa-regular-400.ttf
+fa-solid-900.ttf
+
+into this directory. 
+
+We put some dummy files into fontdummies.zip for the case that you don't have a licence. Extract the content of this file into this folder. Actually, the icons in the apps won't show up. Sorry for that. 

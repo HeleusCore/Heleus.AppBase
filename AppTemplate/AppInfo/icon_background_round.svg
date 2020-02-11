@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0beta1 (32d4812, 2019-09-19)"
+   sodipodi:docname="icon_background_round.svg"
+   xml:space="preserve"
+   enable-background="new 0 0 1024 1024"
+   viewBox="0 0 1024 1024"
+   height="1024px"
+   width="1024px"
+   y="0px"
+   x="0px"
+   id="Ebene_1"
+   version="1.1"><metadata
+   id="metadata845">
+  <rdf:RDF>
+    <cc:Work
+       rdf:about="">
+      <dc:format>image/svg+xml</dc:format>
+      <dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      <dc:title></dc:title>
+    </cc:Work>
+  </rdf:RDF>
+</metadata>
+<defs
+   id="defs843" />
+<sodipodi:namedview
+   inkscape:current-layer="Ebene_1"
+   inkscape:window-maximized="0"
+   inkscape:window-y="181"
+   inkscape:window-x="840"
+   inkscape:cy="560"
+   inkscape:cx="400"
+   inkscape:zoom="0.35"
+   inkscape:showpageshadow="false"
+   borderlayer="false"
+   showborder="true"
+   inkscape:pagecheckerboard="true"
+   showgrid="false"
+   id="namedview841"
+   inkscape:window-height="1209"
+   inkscape:window-width="1600"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0"
+   guidetolerance="10"
+   gridtolerance="10"
+   objecttolerance="10"
+   borderopacity="1"
+   inkscape:document-rotation="0"
+   bordercolor="#666666"
+   pagecolor="#2e2c2c" />
+
+				<linearGradient
+   gradientTransform="matrix(1 0 0 -1 -196 772.5)"
+   y2="260.5"
+   x2="1220"
+   y1="260.5"
+   x1="196"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_1_">
+				<stop
+   id="stop833"
+   style="stop-color:#FFA0F0"
+   offset="0" />
+
+				<stop
+   id="stop835"
+   style="stop-color:#0078FA"
+   offset="1" />
+
+			</linearGradient>
+
+			<path
+   id="path838"
+   d="M1024,824c0,110-90,200-200,200H200C90,1024,0,934,0,824V200C0,90,90,0,200,0h624     c110,0,200,90,200,200V824z"
+   fill="url(#SVGID_1_)" />
+
+</svg>

@@ -1,0 +1,3 @@
+sliders.png => Platforms/iOS/Resources/icons/sliders.png ; blend 25x25 25x25;
+sliders.png => Platforms/iOS/Resources/icons/sliders@2x.png ; blend 50x50 50x50;
+sliders.png => Platforms/iOS/Resources/icons/sliders@3x.png ; blend 75x75 75x75;

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>cc65fb71-12bf-41cd-8e0b-dcfa5baaf5b6</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Heleus.Apps.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)UIApp\UIApp.UWP.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UIApp\MainPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UIApp\WindowsApp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\ResourceImageSourceHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\ColorExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\ControlsFinder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\Entry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\FontStyleExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\Label.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\Picker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\ScrollView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\Switch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\ToastPrompt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\PointerEventHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\PointerFrame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\Screen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\NativeSettings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)Styles\ListViewItemStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Styles\ToastPrompt.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{2C7887FA-2805-48CB-9813-5A055F6D130D}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Heleus.Core.Apps.Base.Shared.Apple</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Renderers\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Renderers\Xamarin\" />
+    <Folder Include="$(MSBuildThisFileDirectory)System\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\Xamarin\FontExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\Xamarin\FormattedStringExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\AppleStorageInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderers\Xamarin\LabelRenderer.cs" />
+  </ItemGroup>
+</Project>

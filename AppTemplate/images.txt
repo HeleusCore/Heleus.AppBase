@@ -1,0 +1,130 @@
+﻿// Android
+icon_background_round.png => Platforms/Android/Resources/mipmap-mdpi/icon.png; imageblend 48x48 48x48 icon_foreground.png
+icon_foreground.png => Platforms/Android/Resources/mipmap-mdpi/icon_foreground.png; blend 108x108 54x54
+icon_background.png => Platforms/Android/Resources/mipmap-mdpi/icon_background.png; resize 108x108 
+icon_foreground.png => Platforms/Android/Resources/drawable-mdpi/notification.png; blend 24x24 28x28
+logo.png => Platforms/Android/Resources/drawable-mdpi/logo.png; resize 300x100
+
+
+icon_background_round.png => Platforms/Android/Resources/mipmap-hdpi/icon.png; imageblend 72x72 72x72 icon_foreground.png
+icon_foreground.png => Platforms/Android/Resources/mipmap-hdpi/icon_foreground.png; blend 162x162 82x82
+icon_background.png => Platforms/Android/Resources/mipmap-hdpi/icon_background.png; resize 162x162 
+icon_foreground.png => Platforms/Android/Resources/drawable-hdpi/notification.png; blend 36x36 42x42
+logo.png => Platforms/Android/Resources/drawable-hdpi/logo.png; resize 450x150
+
+
+icon_background_round.png => Platforms/Android/Resources/mipmap-xhdpi/icon.png; imageblend 96x96 48x48 icon_foreground.png
+icon_foreground.png => Platforms/Android/Resources/mipmap-xhdpi/icon_foreground.png; blend 216x216 108x108
+icon_background.png => Platforms/Android/Resources/mipmap-xhdpi/icon_background.png; resize 216x216 
+icon_foreground.png => Platforms/Android/Resources/drawable-xhdpi/notification.png; blend 48x48 56x56
+logo.png => Platforms/Android/Resources/drawable-xhdpi/logo.png; resize 600x200
+
+
+icon_background_round.png => Platforms/Android/Resources/mipmap-xxhdpi/icon.png; imageblend 144x144 144x144 icon_foreground.png
+icon_foreground.png => Platforms/Android/Resources/mipmap-xxhdpi/icon_foreground.png; blend 324x324 162x162
+icon_background.png => Platforms/Android/Resources/mipmap-xxhdpi/icon_background.png; resize 324x324
+icon_foreground.png => Platforms/Android/Resources/drawable-xxhdpi/notification.png; resize 72x72 84x84
+logo.png => Platforms/Android/Resources/drawable-xxhdpi/logo.png; resize 900x300
+
+// GTK
+icon_background_round.png => Platforms/GTK/Resources/application.png; imageblend 256x256 256x256 icon_foreground.png
+icon_background_round.png => Platforms/GTK/AppIcons/AppIcon_24.png; imageblend 24x24 24x24 icon_foreground.png
+icon_background_round.png => Platforms/GTK/AppIcons/AppIcon_32.png; imageblend 32x32 32x32 icon_foreground.png
+icon_background_round.png => Platforms/GTK/AppIcons/AppIcon_48.png; imageblend 48x48 48x48 icon_foreground.png
+icon_background_round.png => Platforms/GTK/AppIcons/AppIcon_64.png; imageblend 64x64 64x64 icon_foreground.png
+icon_background_round.png => Platforms/GTK/AppIcons/AppIcon_128.png; imageblend 128x128 128x128 icon_foreground.png
+icon_background_round.png => Platforms/GTK/AppIcons/AppIcon_256.png; imageblend 256x256 256x256 icon_foreground.png
+icon_background_round.png => Platforms/GTK/AppIcons/AppIcon_512.png; imageblend 512x512 512x512 icon_foreground.png
+logo.png => Platforms/GTK/Resources/logo.png; resize 600x200
+
+// iOS
+icon_background.png => Platforms/iOS/ITunesArtwork; imageblend 512x512 512x512 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/ITunesArtwork@2x; imageblend 1024x1024 1024x1024 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_20.png ; imageblend 20x20 20x20 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_29.png ; imageblend 29x29 29x29 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_40.png ; imageblend 40x40 40x40 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_48.png ; imageblend 48x48 48x48 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_55.png ; imageblend 55x55 55x55 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_58.png ; imageblend 58x58 58x58 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_60.png ; imageblend 60x60 60x60 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_76.png ; imageblend 76x76 76x76 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_80.png ; imageblend 80x80 80x80 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_87.png ; imageblend 87x87 87x87 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_88.png ; imageblend 88x88 88x88 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_100.png ; imageblend 100x100 100x100 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_120.png ; imageblend 120x120 120x120 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_152.png ; imageblend 152x152 152x152 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_167.png ; imageblend 167x167 167x167 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_172.png ; imageblend 172x172 172x172 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_180.png ; imageblend 180x180 180x180 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_196.png ; imageblend 196x196 196x196 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_216.png ; imageblend 216x216 216x216 icon_foreground.png ; png solid
+icon_background.png => Platforms/iOS/Assets.xcassets/AppIcon.appiconset/icon_1024.png ; imageblend 1024x1024 1024x1024 icon_foreground.png ; png solid
+logo.png => Platforms/iOS/Resources/logo.png; resize 300x100
+logo.png => Platforms/iOS/Resources/logo@2x.png; resize 600x200
+logo.png => Platforms/iOS/Resources/logo@3x.png; resize 900x300
+
+
+// macOS
+icon_background_round.png => Platforms/macOS/Assets.xcassets/AppIcon.appiconset/AppIcon-16.png; imageblend 16x16 16x16 icon_foreground.png
+icon_background_round.png => Platforms/macOS/Assets.xcassets/AppIcon.appiconset/AppIcon-16@2x.png; imageblend 32x32 32x32 icon_foreground.png
+icon_background_round.png => Platforms/macOS/Assets.xcassets/AppIcon.appiconset/AppIcon-32.png; imageblend 32x32 32x32 icon_foreground.png
+icon_background_round.png => Platforms/macOS/Assets.xcassets/AppIcon.appiconset/AppIcon-32@2x.png; imageblend 64x64 64x64 icon_foreground.png
+icon_background_round.png => Platforms/macOS/Assets.xcassets/AppIcon.appiconset/AppIcon-128.png; imageblend 128x128 128x128 icon_foreground.png
+icon_background_round.png => Platforms/macOS/Assets.xcassets/AppIcon.appiconset/AppIcon-128@2x.png; imageblend 256x256 256x256 icon_foreground.png
+icon_background_round.png => Platforms/macOS/Assets.xcassets/AppIcon.appiconset/AppIcon-256.png; imageblend 256x256 256x256 icon_foreground.png
+icon_background_round.png => Platforms/macOS/Assets.xcassets/AppIcon.appiconset/AppIcon-256@2x.png; imageblend 512x512 512x512 icon_foreground.png
+icon_background_round.png => Platforms/macOS/Assets.xcassets/AppIcon.appiconset/AppIcon-512.png; imageblend 512x512 512x512 icon_foreground.png
+icon_background_round.png => Platforms/macOS/Assets.xcassets/AppIcon.appiconset/AppIcon-512@2x.png; imageblend 1024x1024 1024x1024 icon_foreground.png
+logo.png => Platforms/macOS/Resources/logo.png; resize 300x100
+logo.png => Platforms/macOS/Resources/logo@2x.png; resize 600x200
+
+
+// UWP
+
+logo.png => Platforms/UWP/Assets/logo.png; resize 600x200
+
+icon_background_round.png => Platforms/UWP/Assets/Square44x44Logo.altform-unplated_targetsize-256.png; imageblend 256x256 256x256 icon_foreground.png
+icon_background_round.png => Platforms/UWP/Assets/Square44x44Logo.altform-unplated_targetsize-32.png; imageblend 32x32 32x32 icon_foreground.png
+icon_background_round.png => Platforms/UWP/Assets/Square44x44Logo.altform-unplated_targetsize-48.png; imageblend 48x48 48x48 icon_foreground.png
+
+icon_background.png => Platforms/UWP/Assets/StoreLogo.scale-100.png; imageblend 50x50 50x50 icon_foreground.png
+icon_background.png => Platforms/UWP/Assets/StoreLogo.scale-150.png; imageblend 75x75 75x75 icon_foreground.png
+icon_background.png => Platforms/UWP/Assets/StoreLogo.scale-200.png; imageblend 100x100 100x100 icon_foreground.png
+
+
+icon_foreground.png => Platforms/UWP/Assets/BadgeLogo.scale-100.png; resize 24x24
+icon_foreground.png => Platforms/UWP/Assets/BadgeLogo.scale-150.png; resize 36x36
+icon_foreground.png => Platforms/UWP/Assets/BadgeLogo.scale-200.png; resize 48x48
+
+icon_foreground.png => Platforms/UWP/Assets/SmallTile.scale-100.png ; blend 71x71 42x42;
+icon_foreground.png => Platforms/UWP/Assets/SmallTile.scale-150.png ; blend 107x107 64x64;
+icon_foreground.png => Platforms/UWP/Assets/SmallTile.scale-200.png ; blend 142x142 84x84;
+
+icon_foreground.png => Platforms/UWP/Assets/Square44x44Logo.scale-100.png ; blend 44x44 32x32;
+icon_foreground.png => Platforms/UWP/Assets/Square44x44Logo.scale-150.png ; blend 66x66 48x48;
+icon_foreground.png => Platforms/UWP/Assets/Square44x44Logo.scale-200.png ; blend 88x88 64x64;
+
+icon_foreground.png => Platforms/UWP/Assets/Square150x150Logo.scale-100.png ; blend 150x150 75x75;
+icon_foreground.png => Platforms/UWP/Assets/Square150x150Logo.scale-150.png ; blend 225x225 110x110;
+icon_foreground.png => Platforms/UWP/Assets/Square150x150Logo.scale-200.png ; blend 300x300 150x150;
+
+logo.png => Platforms/UWP/Assets/Square310x310Logo.scale-100.png ; blend 310x310 240x80;
+logo.png => Platforms/UWP/Assets/Square310x310Logo.scale-150.png ; blend 465x465 360x120;
+logo.png => Platforms/UWP/Assets/Square310x310Logo.scale-200.png ; blend 620x620 480x160;
+
+logo.png => Platforms/UWP/Assets/Wide310x150Logo.scale-100.png ; blend 310x150 240x80;
+logo.png => Platforms/UWP/Assets/Wide310x150Logo.scale-150.png ; blend 465x225 360x120;
+logo.png => Platforms/UWP/Assets/Wide310x150Logo.scale-200.png ; blend 620x300 480x160;
+
+logo.png => Platforms/UWP/Assets/SplashScreen.scale-100.png ; blend 620x300 300x100;
+logo.png => Platforms/UWP/Assets/SplashScreen.scale-150.png ; blend 930x450 450x150;
+logo.png => Platforms/UWP/Assets/SplashScreen.scale-200.png ; blend 1240x600 600x200;
+
+
+
+
+// WPF
+icon_background_round.png => Platforms/WPF/Resources/icon.png; imageblend 256x256 256x256 icon_foreground.png
+icon_background_round.png => Platforms/WPF/icon.png; imageblend 512x512 512x512 icon_foreground.png
+logo.png => Platforms/WPF/Resources/logo.png; resize 600x200

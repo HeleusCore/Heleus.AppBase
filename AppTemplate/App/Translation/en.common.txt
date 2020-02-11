@@ -1,0 +1,621 @@
+﻿# Common Stuff
+#
+Common.DialogYes: Yes
+Common.DialogNo: No
+Common.DialogOk: OK
+Common.Save: Save
+Common.Sure: Are you sure?
+Common.Share: Share
+Common.Close: Close
+Common.More: More
+Common.Rate: Rate
+Common.Cancel: Cancel
+Common.Open: Open
+Common.Contact: Contact
+Common.DataLicence: Heleus Transaction Data Licence
+Common.TermsOfUse: Terms of Use
+Common.Privacy: Privacy Policy
+Common.Add: Add
+Common.Delete: Delete
+Common.Revoke: Revoke
+Common.Edit: Edit
+Common.Submit: Submit
+Common.MoveUp: Move Up
+Common.MoveDown: Move Down
+Common.AccountPassword: Heleus Account Password
+Common.AccountPasswordStatus: - Enter the correct heleus account password
+Common.Website: Website
+Common.ViewWebsite: View Website
+Common.Email: Email
+Common.PasswordStatus: - Enter the correct password with at least {0} characters
+Common.NewPasswordStatus: - Enter a password with at least {0} characters
+Common.Unlock: You must unlock your registered account with the correct account password before you can proceed.
+Common.AccountKeyName: {0} Account {1}/{2}
+Common.AccountIdTemplate: {0}/{1}
+Common.AccountId: Account ID
+Common.ServiceId: Service ID
+Common.TransactinId: Transaction ID
+Common.Date: Date
+Common.Action: Choose action
+Common.LearnMore: Learn More
+Common.ReportIssue: Report Issues
+Common.RequestFeature: Request Feature
+Common.GetHeleusApp: Get the Heleus App for free
+Common.Error: Error
+Common.SharedSecret: Shared Secret
+Common.SharedSecretInfo: {0} uses end-to-end encryption. Your data is encrypted before it is saved in the Heleus Database and you are the only person on the planet who can decrypt it.\n\nA shared secret is a special type of password that is used to encrypt and decrypt your data. If you lose the shared secret, you can't decrypt your data anymore. Export it and keep it in a save place.
+Common.OfficalService: Offical {0} Service
+Common.ServiceAccount: Service Account
+Common.SecretKey: Secret Key
+Common.CopiedToClipboard: Copied to Clipboard
+Common.SubmitAccount: Service Submission Account
+Common.SubmitAccountInfo: All Heleus apps have build-in support to connect to your own private Heleus Service Node. With the submission account, you select your target account and the corresponding service node, where you want to publish your data. Look in the 'Settings' / 'Service Nodes' menu for more information.
+Common.ServiceNode: Heleus Service Node
+Common.ServiceNodeInfo: A Heleus Service Node is a server that hosts Heleus Core, the associated services and all the nescecary data. All Heleus apps have build-in support to connect to your own private service node. You can add your own custom service node in the 'Settings' menu.
+Common.CopyShareLink: Copy Share Link
+Common.Refresh: Refresh
+
+# Messages
+#
+
+Messages.RequestAuthorizationNotConntected: Could not connect to the desired service node.
+Messages.DeleteServiceAccount: Delete Service Account
+Messages.SericeNodeNotAvailable: The request code points to an unknown service node. Would you like to add this service node?
+Messages.SwitchServiceNode: The request code points to the service node "{0}". Would you like to switch to this service node?
+Messages.ConfirmEnableNotifications: Remote notifications are disabled. Would you like to enable them?
+Messages.ConfirnSynchronizePushTokens: Remote notifications are not synchronized with the Heleus Node. Would you like to synchronize them?
+Messages.PushMissingAccount: No appropriate service node for remote notifications found.
+Messages.ServiceNodeManagerNotReady: Not all serive nodes are loaded yet. Please try again later.
+Messages.NoUnlockedServiceNode: No service account available. Please try again later.
+Messages.ConfirmIosPushSettings: Would you like to change the iOS Notification Settings?
+Messages.ConfirmProfileEdit: Do you want to edit your profile in the Heleus app?
+
+# Pages
+#
+
+AuthorizePage.Heleus: Heleus
+AuthorizePage.Authorize: Authorize {0}
+AuthorizePage.Info: {0} uses the Heleus Core technology. You must authorize {0} with your Heleus Account first, before you can use it. Or import an already authorized account.
+AuthorizePage.RequestAuthorization: Request Service Account
+AuthorizePage.ImportAccount: Import Service Account
+AuthorizePage.RestoreAccount: Restore Service Account
+
+AuthorizeAccountPage.Title: Request Service Account 
+AuthorizeAccountPage.AuthorizeType: Signature Key Type
+AuthorizeAccountPage.SignatureKeyTypeInfo: Heleus uses the EdDSA signature scheme Ed25519 for digital signing. You have different options to generate the required signature key. The default option is 'Derived Heleus Signature Key'.
+AuthorizeAccountPage.NewDerived: Request Signature Key
+AuthorizeAccountPage.ConfirmDerived: Do you want to open the Heleus App to request the signature key?
+AuthorizeAccountPage.NewDerivedInfo: This will open the Heleus App, where you can request a new derived signature key. Afterwards, you can paste the derived signature key here and authorize the service.
+AuthorizeAccountPage.Paste: Paste Signature Key
+AuthorizeAccountPage.ConfirmAuth: Do you know what you are doing and really want to submit a new signature key? You may lose access to your encrypted data. You should usually use the 'Derived Heleus Signature Key' option.
+AuthorizeAccountPage.InvalidDerivedKey: The derived signature key is invalid.
+AuthorizeAccountPage.OutdatedDerivedKey: The derived signature key is outdated and not valid.
+AuthorizeAccountPage.InvalidChainId: The derived signature is for another service and not valid.
+AuthorizeAccountPage.DerivedKeyInfo: Signature Key
+AuthorizeAccountPage.DerivedInfo: This uses the signature key derived from your Heleus Account signature key using scrypt.
+AuthorizeAccountPage.Options: Signature Key Options 
+AuthorizeAccountPage.SignatureKey: Signature Key 
+AuthorizeAccountPage.KeyStatus: - Type a valid 64 character hex signature key 
+AuthorizeAccountPage.SignatureKeyInfo: Ed25519 requires a random 256 bit private signature key. If you use the 'Random' or 'Passphrase' option, you can manually tweak the final signature key. 
+AuthorizeAccountPage.Authorize: Authorize Service Account
+AuthorizeAccountPage.Success: You authorized {0} successfully. You can now start using it.
+AuthorizeAccountPage.RandomInfo: This generates a random signature key. 
+AuthorizeAccountPage.NewRandom: Generate New Random Signature Key
+AuthorizeAccountPage.PassphraseInfo: This generates a new unique signature key from a passphrase using scrypt. The passphrase must at least contain {0} characters.
+AuthorizeAccountPage.NewPassphrase: Generate Signature Key from Passphrase
+AuthorizeAccountPage.Passphrase: Passphrase ({0} characters minimum)
+AuthorizeAccountPage.AuthDerivedConfirm: Derived signature key found. Would you like to authorize {0}?
+
+
+RestoreAccountPage.Title: Restore Service Account
+RestoreAccountPage.Info: Service Account
+RestoreAccountPage.AccountId: Service Account ID
+RestoreAccountPage.Passphrase: .AuthorizeAccountPage.Passphrase
+RestoreAccountPage.SignatureKey: .AuthorizeAccountPage.SignatureKey
+RestoreAccountPage.KeyStatus: .AuthorizeAccountPage.KeyStatus
+RestoreAccountPage.Generate: .AuthorizeAccountPage.NewPassphrase
+RestoreAccountPage.AccountStatus: - Type a valid service account id
+RestoreAccountPage.Restore: Restore Service Account
+RestoreAccountPage.Success: The service account was restored successfully.
+RestoreAccountPage.PassphraseStatus: - Type a passphrase with at least {0} characters
+
+ImportAccountPage.Title: Import Account
+ImportAccountPage.Load: Load From File
+ImportAccountPage.PasteInfo: Paste Your Exported Account
+ImportAccountPage.Password: Account Password
+ImportAccountPage.ImportButton: Import Account
+ImportAccountPage.KeyStatus: - Insert a valid exported account
+ImportAccountPage.Success: Account successfully imported.
+ImportAccountPage.ImportFailed: Account import failed: {0}
+
+ExportAccountPage.Title: Export Account
+ExportAccountPage.Password: Account Password
+ExportAccountPage.ExportButton: Export Account
+ExportAccountPage.Failed: The password was wrong.
+ExportAccountPage.Success: The account was exported and copied to the clipboard. Would you like to save it to a file?
+
+AboutPage.Title: About
+AboutPage.About: {0} Copyright 2018-{1} {2}.
+
+HandleRequestPage.Title: Handle Request Code
+HandleRequestPage.Link: Request Code
+HandleRequestPage.LinkStatus: - Paste a valid request code in the field above
+HandleRequestPage.Password: Request Code Password
+HandleRequestPage.Submit: Process Request Code
+HandleRequestPage.Failure: The request code is invalid.
+HandleRequestPage.PasswordMissing: This request code is encrypted and requires a password.
+HandleRequestPage.PasswordWrong: The password for this request code is invalid.
+
+SearchProfileResultPage.Title: Search Accounts
+SearchProfileResultPage.Result: Result
+SearchProfileResultPage.NotFound: No account found.
+
+SearchProfilePage.Title: Search
+SearchProfilePage.Search: Search
+SearchProfilePage.AccountId: Account ID or Name
+SearchProfilePage.SearchButton: Start Search
+SearchProfilePage.Result: Result
+SearchProfilePage.NotFound: No valid accounts found.
+
+MenuPage.Title: Menu
+
+SettingsPage.Title: Settings
+SettingsPage.ThemeSection: Theme
+SettingsPage.ThemeEnable: Enable Theme
+SettingsPage.ThemeColors: Theme Colors
+SettingsPage.Export: Export Service Account
+SettingsPage.DeleteConfirm: Do you really want to delete your account?
+SettingsPage.PushNotificationSection: Remote Notifications
+SettingsPage.PNEnable: Enable Remote Notifications
+SettingsPage.PNCheck: Check Remote Notifications
+SettingsPage.PNSound: Select Sound
+SettingsPage.PNPlaySound: Enable Sound
+SettingsPage.PNVibrate: Enable Vibration
+SettingsPage.PNUseLED: Enable LED
+SettingsPage.PNColor: Select LED Color
+SettingsPage.PNAutoRemove: Remove Notifications on Open
+SettingsPage.MoreHeleusApps: More Heleus Apps
+
+
+PushNotificationPage.Title: Remote Notifications
+PushNotificationPage.BusyHeader: Busy 
+PushNotificationPage.Busy: Already synchronizing the remote token. Please try again later.
+PushNotificationPage.States: Synchronization
+PushNotificationPage.Result: Result
+PushNotificationPage.Retry: Force Synchronization
+
+
+ViewProfilePage.Title: View Profile 
+ViewProfilePage.Search: Search Profile
+ViewProfilePage.AccountId: .Common.AccountId
+ViewProfilePage.SearchButton: Start Search
+
+
+ProfilePage.NoProfile: No Profile Available
+
+
+ServiceNodesPage.Title: Service Nodes
+ServiceNodesPage.View: View Service Node
+ServiceNodesPage.Activate: Activate Service
+ServiceNodesPage.Deactivate: Deactivate Service
+ServiceNodesPage.AvailableServiceNodes: Available Service Nodes
+ServiceNodesPage.AddServiceNode: Add Service Node
+ServiceNodesPage.AddNewServiceNode: Add New Service Node
+ServiceNodesPage.ServiceNodeInfo: Set up custom service nodes. Connecth with your own service node or a third party service node.
+
+AddServiceNodePage.Title: Add Service Node
+AddServiceNodePage.ServiceNode: Service Node
+AddServiceNodePage.ChainId: .Common.ServiceId
+AddServiceNodePage.ChainIdStatus: - Type a valid service id
+AddServiceNodePage.Endpoint: Service Endpoint
+AddServiceNodePage.EndpointStatus: - Type a valid endpoint (optional)
+AddServiceNodePage.Query: Query
+AddServiceNodePage.ServiceInfo: Service Info 
+AddServiceNodePage.ChainInfoDownloadFailed: Downloading service info failed.
+AddServiceNodePage.ChainNotFound: Service not found.
+AddServiceNodePage.NoPublicEndpoint: Service has no public endpoints.
+AddServiceNodePage.InvalidServiceInfo: Invalid service name or version.
+AddServiceNodePage.InvalidServiceNode: Could not download the required service info.
+AddServiceNodePage.Success: The service node seems to be valid. Please scroll down and add a service account for this service node. 
+
+SubmitAccountsPage.Title: Submission Accounts
+SubmitAccountsPage.SubmitAccounts: Available Submission Accounts
+SubmitAccountsPage.Select: Select
+SubmitAccountsPage.SelectSecrets: View Secret Keys
+
+
+EditAccountPage.Title: Edit Service Account
+EditAccountPage.Name: Edit Account Name
+EditAccountPage.NameRow: Account Name 
+EditAccountPage.NameStatus: - Type a valid account name
+EditAccountPage.Save: Save Changes
+EditAccountPage.Saved: The changes were saved.
+
+
+ServiceNodePage.Title: Service Node
+ServiceNodePage.ServiceInfo: Service Info
+ServiceNodePage.Endpoint: Service Node
+ServiceNodePage.Name: Service Node Name
+ServiceNodePage.AccentColor: Accent Color
+ServiceNodePage.ServiceNodeInfo: Service Node Info
+ServiceNodePage.Edit: .EditAccountPage.Title
+ServiceNodePage.Export: Export Service Account
+ServiceNodePage.SubmitAccounts: .SubmitAccountsPage.Title
+ServiceNodePage.ServiceAccounts: Service Accounts 
+ServiceNodePage.Profile: View Owner Profile
+ServiceNodePage.ImportButton: .AuthorizePage.ImportAccount
+ServiceNodePage.RestoreButton: .AuthorizePage.RestoreAccount
+
+
+SecretKeysPage.Title: Secret Keys
+SecretKeysPage.Secrets: Available Secret Keys
+SecretKeysPage.New: Add Secret Key
+SecretKeysPage.Warning: Do you really want to add a new secret key? Do you know what you are doing?
+SecretKeysPage.Info: {0} uses end-to-end encryption with perfect forward secrecy using your personal secret key. The data is encrypted before it is saved in the Heuels blockchain and you are the only person on the planet who can decrypt the data. A secret key is a super strong random 256 bit long password (it has about as many combinations as there are atoms in the universe), usually derived from your service account. 
+SecretKeysPage.Import: Import Secret Key
+SecretKeysPage.NewSecretKey: Add New Secret Key
+SecretKeysPage.Export: Export Secret Key
+SecretKeysPage.MakeDefault: Set as Default
+
+ExportSecretKeyPage.Title: Export Secret Key
+ExportSecretKeyPage.Password: Secret Key Password
+ExportSecretKeyPage.ExportButton: Export Secret Key
+ExportSecretKeyPage.ConfirmEmptyExport: Do you really want to export the secret key without a password?
+ExportSecretKeyPage.Success: The secret key was exported and copied to the clipboard.
+
+ImportSecretKeyPage.Title: Import Secret Key
+ImportSecretKeyPage.PasteInfo: Paste Your Exported Secret Key
+ImportSecretKeyPage.Password: .ExportSecretKeyPage.Password
+ImportSecretKeyPage.ImportButton: Import Secret Key
+ImportSecretKeyPage.KeyStatus: - Paste a valid exported secret key
+ImportSecretKeyPage.Success: Secret key imported.
+ImportSecretKeyPage.WrongPassword: Import of the secret key failed. The password is wrong.
+ImportSecretKeyPage.Failure: .ImportSecretKeyPage.WrongPassword
+ImportSecretKeyPage.WrongChainId: Import of the secret key failed. The service id is wrong.
+ImportSecretKeyPage.AlreadyAvailable: Import of the secret key failed. The secret key is already available.
+ImportSecretKeyPage.FailureWrongChainId: Import of the secret key failed. The shared secret is from another service (service id: {0}).
+
+NewSecretKeyPage.Title: New Secret Key
+NewSecretKeyPage.SecretKeyType: Select Secret Key Type
+NewSecretKeyPage.Options: Secret Key Type Options
+NewSecretKeyPage.Add: Add New Secret Key
+NewSecretKeyPage.NewRandom: Generate Random Secret Key
+NewSecretKeyPage.NewPassphrase: Generate Secret Key from Passphrase
+NewSecretKeyPage.Passphrase: Passphrase ({0} characters minimum)
+NewSecretKeyPage.PassphraseInfo: This generates a new secret key from a passphrase. The passphrase must at least contain {0} characters.
+NewSecretKeyPage.AlreadyAvailable: .ImportSecretKeyPage.AlreadyAvailable
+NewSecretKeyPage.Success: The secret key was successfully added.
+
+ImageSelectionPage.Title: Choose Photo
+ImageSelectionPage.SelectImage: Choose Photo
+ImageSelectionPage.Select: Choose
+
+
+ThemePage.Title: Theme
+ThemePage.Enable: Enable Theme
+ThemePage.ColorSection: Colors
+ThemePage.WindowSection: Window
+ThemePage.FontSection: Fonts
+
+
+ColorPickerPage.Title: Choose Color
+ColorPickerPage.ColorSection: Preview
+ColorPickerPage.EntrySection: Edit Color
+ColorPickerPage.Save: Save
+ColorPickerPage.Default: Use Default
+
+
+FontPickerPage.Title: Choose Font
+FontPickerPage.FontSection: Preview
+FontPickerPage.FontSize: Font Size
+FontPickerPage.FontWeight: Font Weight
+FontPickerPage.Thin: Thin
+FontPickerPage.Light: Light
+FontPickerPage.Regular: Regular
+FontPickerPage.Medium: Medium
+FontPickerPage.Bold: Bold
+FontPickerPage.Save: Save
+FontPickerPage.Default: Use Default
+
+
+# Views
+#
+ClientAccountView.Name: Account Name
+ClientAccountView.AccountId: Account ID
+ClientAccountView.Type: Account Type
+ClientAccountView.ChainId: Target Service ID
+ClientAccountView.KeyIndex: Signature Key Index
+ClientAccountView.Expires: Expires
+ClientAccountView.PublicKey: Public Signature Key
+
+SecretKeyView.Id: Secret Key ID
+SecretKeyView.ChainId: .Common.ServiceId
+SecretKeyView.Timestamp: Date
+SecretKeyView.Type: Secret Key Type
+SecretKeyView.AccountId: .Common.AccountId
+
+SecretKeyInfoTypes.Random: Random Secret Key
+SecretKeyInfoTypes.Passphrase: Secret Key from Passphrase
+SecretKeyInfoTypes.PublicServiceAccount: Service Account Derivation
+SecretKeyInfoTypes.GroupSignedPublicKey: Service Account Group Derivation
+SecretKeyInfoTypes.KeyExchange: Service Accounts Key Exchange
+
+ServiceInfoView.Available: Available
+ServiceInfoView.Name: Service Name (Required: {0})
+ServiceInfoView.Version: Service Version (Minimum required: {0})
+ServiceInfoView.Website: Service Website
+ServiceInfoView.Owner: Service Owner AccountID
+ServiceInfoView.Endpoint: Service Endpoint
+
+ServiceNodeView.Active: Active
+ServiceNodeView.Name: Service Node Name
+ServiceNodeView.Endpoint: Service Endpoint
+ServiceNodeView.Custom: Custom Endpoint
+ServiceNodeView.AccountId: Service Account Id
+
+DataTransactionView.TransactionId: .Common.TransactinId
+DataTransactionView.AccountId: .Common.AccountId
+DataTransactionView.ChainId: .Common.ServiceId
+DataTransactionView.Date: .Common.Date
+
+KeyView.Private: Private Signature Key
+KeyView.Public: Public Signature Key
+
+DerivedKeyView.AccountId: .Common.ServiceAccount
+DerivedKeyView.ChainId: .Common.ServiceId
+
+# Enums
+#
+TransactionDownloadResult.DownloadFailed: Download failed
+TransactionDownloadResult.NoServiceAccount: Service account not available
+TransactionDownloadResult.Busy: Busy
+TransactionDownloadResult.Ok: Ok
+
+
+KeyStoreTypes.CoreAccount: Heleus Account
+KeyStoreTypes.ServiceAccount: Service Account
+KeyStoreTypes.ChainKey: Chain Key
+
+
+HeleusClientResultTypes.Ok: Ok
+HeleusClientResultTypes.ConnectionFailed: Connecting to the Heleus Node failed. Please try again later.
+HeleusClientResultTypes.Timeout: The connection to the Heleus Node timed out. Please try again later.
+HeleusClientResultTypes.InternalError: An internal connection error occured. Please try again later.
+HeleusClientResultTypes.PasswordError: The password that you typed is wrong.
+
+HeleusClientResultTypes.Busy: The app is busy. Please try again later.
+HeleusClientResultTypes.NoCoreAccount: No Heleus Account available. Please register or import a Heleus Account first.
+HeleusClientResultTypes.CoreAccountAlreadyAvailable: There is already a Heleus Account available. Only one Heleus Account is allowed.
+HeleusClientResultTypes.RestoreCoreAccountNotFound: Heleus Account id is invalid.
+HeleusClientResultTypes.RestoreInvalidSignatureKey: The signature key is invalid.
+
+HeleusClientResultTypes.EndpointSignatureError: The Heleus Service returned invalid data. Please try again.
+HeleusClientResultTypes.EndpointConnectionError: The connection to the Heleus Service failed. Please try again later.
+HeleusClientResultTypes.ServiceNodeMissing: No service node available. Please add a valid service node.
+HeleusClientResultTypes.ServiceNodeAccountMissing: The service node has no authorized service account. Please authorize or import a service account first.
+
+
+ImportAccountResult.Ok: Ok
+ImportAccountResult.CoreAccountAlreadyPresent: .HeleusClientResultTypes.CoreAccountAlreadyAvailable
+ImportAccountResult.AccountAlreadyPresent: Account already imported. 
+ImportAccountResult.PasswordInvalid: .HeleusClientResultTypes.PasswordError
+ImportAccountResult.ValidationFailed: The online validation of the account failed.
+ImportAccountResult.InvalidKeyType: The account type is invalid.
+ImportAccountResult.InvalidChainId: The service id is invalid.
+ImportAccountResult.InvalidAccountId: The account id is invalid.
+
+TransactionResult: Submitting the transaction failed: {0}.
+TransactionResultTypes.Ok: Ok
+TransactionResultTypes.Unknown: An unknown error occured
+
+TransactionResultTypes.InvalidTransaction: Transaction invalid
+TransactionResultTypes.InvalidContent: Content invalid
+TransactionResultTypes.Expired: Expired
+TransactionResultTypes.InvalidCoreAccount: Invalid Heleus Account
+TransactionResultTypes.InvalidServiceAccount: Invalid Heleus Service Account
+TransactionResultTypes.InvalidServiceAccountKey: Invalid service account signature key
+TransactionResultTypes.AlreadySubmitted: Already submitted
+TransactionResultTypes.AlreadyProcessed: Already processed
+TransactionResultTypes.InvalidSignature: Signature invalid
+
+
+TransactionResultTypes.TooManyReceivers: Too many Receivers
+TransactionResultTypes.TooManyTargetTransactions: Too many targeted transactions
+TransactionResultTypes.TargetAccountInvalid: Receiver account is invalid
+TransactionResultTypes.TargetTransactionInvalid: Targeted transaction is invalid
+
+
+TransactionResultTypes.InvalidReceiverAccount: Receiver account is invalid
+TransactionResultTypes.InvalidTransferReason: Transfer reason is invalid
+TransactionResultTypes.InsuficientBalance: Insuficient balance
+
+
+TransactionResultTypes.ChainKeyRevoked: Service account revoked
+TransactionResultTypes.ChainKeyExpired: Service account expired
+TransactionResultTypes.ChainNotFound: Service not found
+TransactionResultTypes.ChainKeyNotFound: Chain account not found
+TransactionResultTypes.ChainNodeInvalid: Service node invalid
+TransactionResultTypes.ChainServiceUnavailable: Service currently not available
+TransactionResultTypes.ChainServiceErrorResponse: Service Error
+
+
+TransactionResultTypes.InvalidChainName: Service name invalid
+TransactionResultTypes.InvalidChainWebsite: Service website invalid
+TransactionResultTypes.InvalidChainEndpoint: Public endpoint invalid
+TransactionResultTypes.InvalidChainPurchase: Purchase invalid
+TransactionResultTypes.InvaidChainKey: Chain Account invalid
+
+TransactionResultTypes.InvalidBlock: Block invalid
+TransactionResultTypes.BlockLimitExceeded: Block limit is exceeded
+TransactionResultTypes.InvalidBlockSignature: Block signature invalid
+
+TransactionResultTypes.AlreadyJoined: Signature key already authorized. Please use the restore option in the original app.
+
+TransactionResultTypes.CannotPurchase: Purchase failed
+TransactionResultTypes.PurchaseNotFound: Purchase not found
+TransactionResultTypes.PurchaseRequired: Required purchase missing
+TransactionResultTypes.PurchaseConsumeablesMissing: Not enough consumeables available
+
+
+TransactionResultTypes.AttachementsNotUploaded: Attachement(s) not uploaded yet
+TransactionResultTypes.AttachementsNotAllowed: Attachement(s) not allowed
+TransactionResultTypes.AttachementsInvalid: Attachement(s) invalid
+TransactionResultTypes.AttachementsUploadFailed: Attachement(s) upload failed
+
+
+TransactionResultTypes.InvalidGroup: Invalid group
+TransactionResultTypes.NoGroupAccount: No group
+TransactionResultTypes.NoGroupPermission: No group permission
+TransactionResultTypes.NoGroupApproval: No group approval
+TransactionResultTypes.GroupAlreadyAdded: Group already joined
+TransactionResultTypes.GroupAlreadyPending: Group account still pending
+
+TransactionResultTypes.AlreadyFan: Already fan
+TransactionResultTypes.NoFan: No fan
+
+TransactionResultTypes.AlreadyInvitied: Friend invitation pending
+TransactionResultTypes.InvalidFriend: Invalid friend
+TransactionResultTypes.AlreadyFriend: Already friends
+
+RestoreResult.AlreadyAvailable: The service account "{1}" in the service node "{0}" has already the same signature key.
+RestoreResult.DownloadError: Downloading the service account failed, please try again later.
+RestoreResult.InvalidAccountId: The service account id is invalid.
+RestoreResult.NotFound: Service account with this signature key not found.
+
+AuthorizeType.Random: Random Signature Key
+AuthorizeType.Passphrase: Signature Key from Passphrase
+AuthorizeType.Derived: Derived Heleus Signature Key
+
+
+AuthorizationResult.NotConnected: Couldn't connect to the desired service. Please try again later.
+AuthorizationResult.AlreadyAvailable: .RestoreResult.AlreadyAvailable
+
+PushTokenSyncState.QueryPushToken: Querying Remote Token
+PushTokenSyncState.QueryServiceNode: Contacting Service Node
+PushTokenSyncState.UploadingPushToken: Sending Remote Notification
+PushTokenSyncState.AwaitingResponse: Waiting for Remote Notification
+PushTokenSyncState.UploadingPushTokenAck: Re-Sending Remote Notification
+PushTokenSyncState.AwaitingResponseAck: Waiting for Remote Notification
+PushTokenSyncState.Done: Remote Notifications Enabled
+
+PushTokenSyncResult.Busy: .PushNotificationPage.Busy
+PushTokenSyncResult.UnknownError: An unknown error occured. Please try again later.
+PushTokenSyncResult.PushDisabled: Remote notifications are disabled.
+PushTokenSyncResult.NoPushTokenAvailable: No remote token available.
+PushTokenSyncResult.NoAppropriateServiceNodeFound: No appropriate service node for remote notifications found.
+PushTokenSyncResult.UploadFailure: Sending the remote notification failed.
+PushTokenSyncResult.NoResponse: No remote notification received.
+PushTokenSyncResult.WrongResponse: The response from the service node was wrong.
+PushTokenSyncResult.UploadAckFailure: Re-Sending the remote notification failed.
+PushTokenSyncResult.NoAckResponse: No remote notification received.
+PushTokenSyncResult.WrongAckResponse: The ack response from the service node was wrong
+PushTokenSyncResult.AlreadySynced: The remote token is already synchronized with the service node.
+PushTokenSyncResult.Ok: The remote notifications are working.
+
+
+# Theme
+#
+Theme.Colors.Primary: Primary
+Theme.Colors.Secondary: Secondary
+Theme.Colors.Text: Text
+Theme.Colors.Row: Row
+Theme.Colors.RowHover: Row Hovered
+Theme.Colors.RowHighlight: Row Highlighted
+Theme.Colors.RowDisabled: Row Disabled
+Theme.Colors.Submit: Submit
+Theme.Colors.SubmitHover: Submit Hovered
+Theme.Colors.SubmitHighlight: Submit Highlighted
+Theme.Colors.SubmitDisabled: Submit Disabled
+Theme.Colors.Cancel: Cancel
+Theme.Colors.CancelHover: Cancel Hovered
+Theme.Colors.CancelHightlight: Cancel Highlighted
+Theme.Colors.CancelDisabled: Cancel Disabled
+
+
+Theme.Window.Light: Light
+Theme.Window.Dark: Dark
+
+
+Theme.Fonts.Text: Text
+Theme.Fonts.Small: Small
+Theme.Fonts.Detail: Detail
+Theme.Fonts.Micro: Micro
+Theme.Fonts.RowTitle: Row Title
+Theme.Fonts.RowHeader: Row Header
+Theme.Fonts.RowFooter: Row Footer
+Theme.Fonts.Row: Row
+Theme.Fonts.RowIcon: Row Icon
+
+# AppInfo
+#
+HeleusAppInfo.Name: Heleus
+HeleusAppInfo.Description: Manage your Heleus Core Account
+HeleusAppInfo.Link: https://heleuscore.com/heleus/
+StatusAppInfo.Name: Heleus Status
+StatusAppInfo.Description: Always up to date
+StatusAppInfo.Link: https://heleuscore.com/status/
+MessageAppInfo.Name: Heleus Message
+MessageAppInfo.Description: The secure text messenger
+MessageAppInfo.Link: https://heleuscore.com/message/
+TodoAppInfo.Name: Heleus Todo
+TodoAppInfo.Description: Your collaborative task manager
+TodoAppInfo.Link: https://heleuscore.com/todo/
+VerifyAppInfo.Name: Heleus Verify
+VerifyAppInfo.Description: Powerful data verification
+VerifyAppInfo.Link: https://heleuscore.com/verfiy/
+NoteAppInfo.Name: Heleus Note
+NoteAppInfo.Description: Synchronize notes across all your devices
+NoteAppInfo.Link: https://heleuscore.com/note/
+
+
+# Link
+#
+Link.Website: .App.Link
+Link.DataLicence: https://heleuscore.com/datalicence
+Link.Contact: https://heleuscore.com/contact/
+Link.TermsOfUse: https://heleuscore.com/termsofuse/
+Link.Privacy: https://heleuscore.com/privacy/
+Link.Account: https://heleuscore.com
+Link.Profile: https://heleuscore.com/heleus#profile
+Link.Chain: https://heleuscore.com/documentation
+Link.ServiceNode: https://heleuscore.com/documentation
+Link.Authorize: https://heleuscore.com/documentation
+
+Link.Github: https://github.com/HeleusCore/
+Link.Medium: https://heleuscore.com/medium
+Link.Reddit: https://heleuscore.com/reddit
+Link.Twitter: https://heleuscore.com/twitter
+Link.Facebook: https://heleuscore.com/facebook
+Link.Youtube: 
+Link.Instagram: 
+Link.HeleusAppDownload: https://heleuscore.com/heleus
+Link.ReportIssue: https://github.com/HeleusCore/Heleus/issues
+Link.RequestFeature: https://github.com/HeleusCore/Heleus/issues
+
+# Mac Menu
+#
+Menu.Services: Services
+Menu.Hide: Hide {0}
+Menu.HideOthers: Hide Others
+Menu.ShowAll: Show Fall
+Menu.Quit: Quit
+Menu.Edit: Edit
+Menu.Undo: Undo
+Menu.Redo: Redo
+Menu.Cut:  Cut
+Menu.Copy: Copy
+Menu.Paste: Paste
+Menu.Delete: Delete
+Menu.SelectAll: Select All
+Menu.Window: Window
+Menu.Minimize: Minimize
+Menu.Zoom: Zoom
+Menu.BringAllToFront: Bring All to Front
+Menu.Help: Help
+Menu.Github: Github
+Menu.Medium: Medium
+Menu.Reddit: Reddit
+Menu.Facebook: Like us on Facebook
+Menu.Twitter: Follow us on Twitter
+Menu.Rate: Rate {0} on the App Store
+Menu.Website: {0} website
