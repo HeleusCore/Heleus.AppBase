@@ -152,5 +152,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Heleus\StackListView.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Heleus\TransactionDownloadListView.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)AppInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\RevenuePage.cs" />
   </ItemGroup>
 </Project>

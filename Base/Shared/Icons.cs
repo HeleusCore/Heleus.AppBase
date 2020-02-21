@@ -106,5 +106,7 @@ namespace Heleus.Apps.Shared
         public const char Bell = '\uf0f3';
         public const char FileImport = '\uf56f';
         public const char FileExport = '\uf56e';
+
+        public const char MoneyCheckEdit = '\uf872';
     }
 }

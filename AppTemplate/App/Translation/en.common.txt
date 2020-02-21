@@ -286,6 +286,19 @@ NewSecretKeyPage.PassphraseInfo: This generates a new secret key from a passphra
 NewSecretKeyPage.AlreadyAvailable: .ImportSecretKeyPage.AlreadyAvailable
 NewSecretKeyPage.Success: The secret key was successfully added.
 
+
+RevenuePage.Title: Heleus Coin Revenue 
+RevenuePage.NotAvailable: Couldn't query the revenue data. Please try again later.
+RevenuePage.Revenue: Revenue
+RevenuePage.RecentRevenue: Recent Revenue
+RevenuePage.RequestRevenue: Request Revenue
+RevenuePage.RequestRevenueInfo: This will open the Heleus App. Do you want to continue? 
+
+RevenueView.Available: Available Heleus Coins
+RevenueView.Payout: Total Payout
+RevenueView.TotalRevenue: Total Revenue
+
+
 ImageSelectionPage.Title: Choose Photo
 ImageSelectionPage.SelectImage: Choose Photo
 ImageSelectionPage.Select: Choose
@@ -476,6 +489,62 @@ TransactionResultTypes.NoFan: No fan
 TransactionResultTypes.AlreadyInvitied: Friend invitation pending
 TransactionResultTypes.InvalidFriend: Invalid friend
 TransactionResultTypes.AlreadyFriend: Already friends
+
+TransactionResultTypes.FeatureUnknown: Unknown transaction feature.
+TransactionResultTypes.FeatureNotAvailable: Transaction feature not available.
+TransactionResultTypes.FeatureMissing: Transaction feature missing.
+TransactionResultTypes.FeatureInternalError: Internal transaction feature error.
+TransactionResultTypes.FeatureCustomError: Custom transaction feature error.
+
+TransactionResultTypes.RevenueAmoutInvalid: The amount of revenue is invalid.
+
+#
+# Feature Errors
+#
+
+DataError.Empty: Invalid data.
+DataError.InvalidItem: Invalid data item.
+
+EnforceReceiverFriendError.ReceiversMissing: The receiver is missing.
+EnforceReceiverFriendError.InvalidFriend: Invalid contact.
+
+FanError.Unknown: Unknown fan error.
+FanError.InvalidFeatureRequest: Invalid fan feature request.
+FanError.ReceiverFeatureRequired: Fan feature requires receiver feature.
+FanError.InvalidFan: Invalid fan.
+FanError.AlreadyFan: Already fa.
+
+FriendError.Unknown: Unknown contact error.
+FriendError.InvalidFeatureRequest: Invalid contact feature request.
+FriendError.ReceiverFeatureRequired: Contact feature requires receiver feature.
+FriendError.InvalidFriend: Invalid contact.
+FriendError.AlreadyFriends: Already a valid contact.
+FriendError.AlreadyInvited: Contact already invited.
+FriendError.ReceiversMustBeFriends: The contacts must be friends.
+
+GroupError.InvalidGroup: Invalid group.
+GroupError.InvalidAccount: Invalid group account.
+
+
+GroupAdministrationError.InvalidFeatureRequest: Invalid group administration feature request.
+GroupAdministrationError.GroupAdministrationFeatureMissing: The request requires the group administration feature.
+GroupAdministrationError.ReceiverFeatureMissing: Group administration feature requires receiver feature.
+GroupAdministrationError.InvalidGroup: Invalid group.
+
+GroupAdministrationError.NoGroupAccount: No group account.
+GroupAdministrationError.NoGroupPermission: No group permission.
+GroupAdministrationError.NoGroupApproval: No group approval.
+GroupAdministrationError.GroupAlreadyAdded: Already member in the group.
+GroupAdministrationError.GroupAlreadyPending: Group membership pending.
+
+ReceiverError.InvalidReceiverData: Invalid receiver data.
+ReceiverError.TooManyReceivers: Too many receivers.
+ReceiverError.InvalidReceiver: Invalid receiver.
+
+SharedAccountIndexError.ReceiverMissing: (Shared account index) Receiver is missing.
+TransactionTargetError.InvalidTransactionTargetData: Invalid transaction target data.
+TransactionTargetError.TooManyTransactionTargets: Too many transaction targets.
+TransactionTargetError.InvalidTarget: Invalid transaction target.
 
 RestoreResult.AlreadyAvailable: The service account "{1}" in the service node "{0}" has already the same signature key.
 RestoreResult.DownloadError: Downloading the service account failed, please try again later.
