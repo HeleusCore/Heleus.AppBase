@@ -360,9 +360,13 @@ namespace Heleus.Apps.Shared
 
         public static void OpenUrl(Uri uri)
 		{
+#if GTK
+            System.Diagnostics.Process.Start("xdg-open", uri.AbsoluteUri);
+#else
 #pragma warning disable CS0618 // Type or member is obsolete
             Device.OpenUri(uri);
 #pragma warning restore CS0618 // Type or member is obsolete
+#endif
         }
 
         protected override void OnStart()

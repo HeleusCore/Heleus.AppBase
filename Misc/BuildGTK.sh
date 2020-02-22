@@ -20,7 +20,11 @@ msbuild ../../$_SHORTNAME.Linux.sln /t:Restore /t:$_BSHORT /p:Configuration=Rele
 cd bin
 cd Release
 
+# https://github.com/dotnet/runtime/issues/21777
+rm System.Net.Http.dll
+
 mkbundle -o $_EXEC --simple "$_NAME.exe" --machine-config /etc/mono/4.5/machine.config --config ../../../../../Heleus.AppBase/Misc/mkbundleconfig --library /usr/lib64/libgtksharpglue-2.so --library /usr/lib64/libglibsharpglue-2.so --library /usr/lib64/libgdksharpglue-2.so --library /usr/lib64/libpangosharpglue-2.so --library libSkiaSharp.so
+
 
 chmod +x $_EXEC
 
